@@ -55,5 +55,19 @@ print("\(y) - \(x)= \(subtracted2)")
 print("\(y) * \(x)= \(multiplied2)")
 print("\(y) / \(x)= \(divided2)")
 print("\(y) % \(x)= \(remainder2)")
+
+let amount = 18.5
+let tip = amount / 5
+
+print("your total is \(amount)")
+print("your tip is \(tip)")
+print("your total cost is \(amount + tip)")
+
+let milk = 20.0
+let latte = 0.2
+let amount_purchased = 25.0
+
+print("this customer has bought \(amount_purchased) lattes!")
+print("there is \(milk - latte * amount_purchased)L of milk left!")
 }
 }
