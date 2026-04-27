@@ -69,5 +69,10 @@ let amount_purchased = 25.0
 
 print("this customer has bought \(amount_purchased) lattes!")
 print("there is \(milk - latte * amount_purchased)L of milk left!")
+
+var dog_age = 6
+let early_years = 
+var human_years = 
+
 }
 }
