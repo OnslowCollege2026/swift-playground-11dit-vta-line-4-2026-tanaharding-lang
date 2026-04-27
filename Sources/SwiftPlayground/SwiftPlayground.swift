@@ -28,5 +28,13 @@ studentYear = 6
 studentAge = 27
 greeting = "There is a young \(studentAge) year old boy called \(studentName). He is in year \(studentYear) at \(school). \(studentName) does \(schoolHours) hours of school work every day and then he goes home."
 print(greeting)
+
+let x = 10
+let y = 5
+
+let added = x + y
+let subtracted = x - y
+
+print("\(y)%\(x)= \(modulo2)")
 }
 }
