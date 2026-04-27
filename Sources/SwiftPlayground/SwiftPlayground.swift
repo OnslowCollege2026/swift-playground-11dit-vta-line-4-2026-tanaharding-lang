@@ -34,7 +34,14 @@ let y = 5
 
 let added = x + y
 let subtracted = x - y
+let multiplied = x * y
+let divided = x / y
+let remainder = x % y
 
-print("\(y)%\(x)= \(modulo2)")
+print("\(y) + \(x)= \(added)")
+print("\(y) - \(x)= \(subtracted)")
+print("\(y) * \(x)= \(multiplied)")
+print("\(y) / \(x)= \(divided)")
+print("\(y) % \(x)= \(remainder)")
 }
 }
