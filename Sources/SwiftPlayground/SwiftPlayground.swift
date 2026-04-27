@@ -38,10 +38,22 @@ let multiplied = x * y
 let divided = x / y
 let remainder = x % y
 
-print("\(y) + \(x)= \(added)")
-print("\(y) - \(x)= \(subtracted)")
-print("\(y) * \(x)= \(multiplied)")
-print("\(y) / \(x)= \(divided)")
-print("\(y) % \(x)= \(remainder)")
+let added2 = y + x
+let subtracted2 = y - x
+let multiplied2 = y * x
+let divided2 = y / x
+let remainder2 = y % x
+
+print("\(x) + \(y)= \(added)")
+print("\(x) - \(y)= \(subtracted)")
+print("\(x) * \(y)= \(multiplied)")
+print("\(x) / \(y)= \(divided)")
+print("\(x) % \(y)= \(remainder)")
+
+print("\(y) + \(x)= \(added2)")
+print("\(y) - \(x)= \(subtracted2)")
+print("\(y) * \(x)= \(multiplied2)")
+print("\(y) / \(x)= \(divided2)")
+print("\(y) % \(x)= \(remainder2)")
 }
 }
